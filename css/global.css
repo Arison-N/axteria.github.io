@@ -1,3 +1,7 @@
+h1{
+    visibility: hidden;
+}
+
 body{
     font-family: 'Montserrat', regular;
     font-size: 16px;
