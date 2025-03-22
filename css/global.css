@@ -8,3 +8,13 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+nav{
+    display: blcok;
+    top:0;
+    justify-content: 5%;
+    align-items: left;
+    color: #2F373F;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
