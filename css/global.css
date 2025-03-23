@@ -5,19 +5,32 @@ body{
     color: #D9D4CE;
     background-color: #2F373F;
     margin: 0;
-    padding: 25px;
+    padding: 0;
 }
 
 header{
+    /* Postioning */
     position: fixed;
+    top:0px;
+
+    /* Styling */
     width: 100%;
     height: 75px;
     display: blcok;
-    top:0;
     justify-content: 5%;
     align-items: left;
     color: #2F373F;
     background: rgba(255,255,255,0.8);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 100;
+}
+
+.notice{
+    /* Positioning */
+
+
+    /* Styling */
+    height: inherit;
+    padding: 0 25px;
+    justify-content: center;
 }
