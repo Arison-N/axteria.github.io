@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axteria</title>
     <link rel="stylesheet" href="css\global.css">
+    <link rel="stylesheet" href="css\globalfooter.css">
 </head>
 
 <body>
@@ -48,8 +49,34 @@
         </section>
     </main>
 
-    <footer>
-        <p>Copyright &copy; 2025 Axteria. All rights reserved.</p>
+    <footer id="gf"> <!-- gf stands for globalfooter -->
+        <div class="gf-content">
+            <h2 class="gf-label">Axteria Footer</h2>
+            <ul class="gf-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <section class="gf-footer">
+                <div class="gf-footer-legal">
+                    <div class="gf-footer-legal-copyright">Copyright &copy; 2025 Axteria. All rights reserved.</div>
+                    <div>
+                        <ul class="gf-footer-legal-links">
+                            <li class="gf-footer-legal-links-item">
+                                <a class="gf-footer-legal-links" href="privacy.html">Privacy Policy</a>
+                            </li>
+                            <li class="gf-footer-legal-links-item">
+                                <a class="gf-footer-legal-links" href="terms.html">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gf-footer-locale">
+                    <a class="gf-footer-locale-link" href="index.html" title="此網頁提供繁體中文顯示">繁體中文</a>
+                    <a class="gf-footer-locale-link" href="index.html" title="This page is available in English">English</a>
+                </div>
+            </section>
+        </div>
     </footer>
 
     <script src="js\global.js"></script>
