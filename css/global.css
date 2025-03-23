@@ -15,7 +15,7 @@ body{
 
 nav{
     display: blcok;
-    top:0;
+    top:10px;
     justify-content: 5%;
     align-items: left;
     color: #2F373F;
