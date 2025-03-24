@@ -31,7 +31,7 @@ body{
     font-size: 17.5px;
 }
 
-.globalnav-content{
+.globalnav-list{
     /* Positioning */
     position: relative;
     display: flex;
@@ -42,8 +42,8 @@ body{
     width: 100%;
     height: 50px;
     justify-content: space-between;
-    align-items: center;
     padding: 0 25px;
+    list-style: none inside none;
 }
 
 a:link, a:visited{
