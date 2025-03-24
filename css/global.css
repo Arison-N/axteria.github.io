@@ -33,7 +33,7 @@ body{
 
 .globalnav-content{
     /* Positioning */
-    position: relative;
+    position: static;
     flex-direction: row;
     width: inherit;
     height: inherit;
@@ -46,7 +46,7 @@ body{
 
 .globalnav-list{
     /* Positioning */
-    position: relative;
+    position: static;
     display: flex;
     flex-direction: row;
     top: 0;
