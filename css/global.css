@@ -10,7 +10,7 @@ body{
     padding: 0;
 }
 
-header{
+.globalheader{
     /* Postioning */
     position: fixed;
     top:0px;
@@ -31,6 +31,11 @@ header{
     z-index: 1000;
     margin: 0;
     font-size: 17.5px;
+}
+
+a:link, a:visited{
+    color: #2F373F;
+    text-decoration: none;
 }
 
 .container{
