@@ -31,6 +31,19 @@ body{
     font-size: 17.5px;
 }
 
+#globalnav-content{
+    /* Positioning */
+    position: relative;
+    flex-direction: row;
+    width: inherit;
+    height: inherit;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none inside none;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 .globalnav-list{
     /* Positioning */
     position: relative;
@@ -41,6 +54,7 @@ body{
     right: 0;
     width: 100%;
     height: 50px;
+    vertical-align: middle;
     justify-content: space-between;
     padding: 0 25px;
     list-style: none inside none;
