@@ -31,7 +31,7 @@ body{
     font-size: 17.5px;
 }
 
-#globalnav-content{
+.globalnav-content{
     /* Positioning */
     position: relative;
     flex-direction: row;
