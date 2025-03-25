@@ -1,4 +1,4 @@
-body{
+html, body{
     font-family: "Lexend","Noto Sans HK","Arial",sans-serif;
     line-height: 1.5;
     color: #D9D4CE;
@@ -11,18 +11,6 @@ body{
 a:link, a:visited{
     color: #2F373F;
     text-decoration: none;
-}
-
-.container{
-    /* Positioning */
-    position: static;
-
-    /* Styling */
-    height: inherit;
-    padding: 0 25px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 main{
