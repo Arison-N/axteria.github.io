@@ -9,7 +9,7 @@
 #globalmessage {
     width: 100%;
     height: 25px;
-    background-color: rgb(226, 208, 170);
+    background: rgb(226, 208, 170);
     top: 0;
     padding: 0;
     margin: 0 auto;
