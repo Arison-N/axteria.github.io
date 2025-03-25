@@ -53,7 +53,7 @@
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: block;
+    display: flex;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -65,7 +65,7 @@
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 40s linear infinite;
+    animation: marquee 5s linear infinite;
     /* manipulate the speed of the marquee by changing "40s" line above*/
 }
   
