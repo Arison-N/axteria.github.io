@@ -8,38 +8,109 @@
 
     <!-- CSS Embed -->
     <link rel="stylesheet" href="css\global.css">
+    <link rel="stylesheet" href="css\globalheader.css">
     <link rel="stylesheet" href="css\globalfooter.css">
 
     <!-- Font Embed -->
     <link rel="stylesheet" href="css\font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans+HK:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <div id="globalheader">
+        <aside id="globalmessage-segment" lang="en-HK" dir="ltr" class="globalmessage-segment">
+            <ul class="globalmessage-segment-content"></ul>
+        </aside>
         <nav id="globalnav">
             <div class="globalnav-content">
+                <div class="globalnav-item globalnav-menuback">
+                    <button class="globalnav-menuback-button">
+                        <span class="globalnav-icon">
+                            <svg height="50" viewBox="0 0 150 65" width="150" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 5c2.5 0 2 4 4 7s8 2 8 5-6 1-8 6c-2 6-1 14-4 14s-2-8-4-14c-2-5-8-3-8-6s6-2 8-5 1.5-7 4-7"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+
                 <ul id="globalnav-list" class="globalnav-list">
-                    <li>
-                        <a href="index.html" class="globalnav-link">
-                            <span class="globalnav-link-image">
-                                <svg width="100" height="37.5" viewBox="0 0 100 37.5" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path>
-                                </svg>
+                    <li class="globalnav-item globalnav-item-axteria">
+                        <a href="index.html" class="globalnav-link globalnav-item-axteria">
+                            <span class="globalnav-image-regular globalnav-link-image">
+                                <svg width="20" height="25" viewBox="0 0 35 40" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 5c2.5 0 2 4 4 7s8 2 8 5-6 1-8 6c-2 6-1 14-4 14s-2-8-4-14c-2-5-8-3-8-6s6-2 8-5 1.5-7 4-7" />
+                                </svg>   
                             </span>
+                            <h2 class="">Axteria</h2>
                             <span class="globalnav-link-text">Axteria</span>
                         </a>
                     </li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li class="globalnav-item globalnav-menu">
+                        <div class="globalnav-flyout">
+                            <div class="globalnav-menu-list">
+                                <div class="globalnav-item globalnav-item-projects globalnav-item-menu">
+                                    <ul class="globalnav-submenu-trigger-group">
+                                        <li class="globalnav-submenu-trigger-item">
+                                            <a href="projects.html" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-projects">
+                                                <span class="globalnav-link-text-container">
+                                                    <span class="globalnav-image-regular globalnav-link-image">
+                                                        <svg height="44" viewBox="0 0 30 44" width="30" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="m26.5679 20.4629c1.002 0 1.67.738 1.693 1.857h-3.48c.076-1.119.779-1.857 1.787-1.857zm2.754 2.672v-.387c0-1.963-1.037-3.176-2.742-3.176-1.735 0-2.848 1.289-2.848 3.276 0 1.998 1.096 3.263 2.848 3.263 1.383 0 2.367-.668 2.66-1.746h-1.008c-.264.557-.814.856-1.629.856-1.072 0-1.769-.791-1.822-2.039v-.047zm-9.547-3.451h.96v.937h.094c.188-.615.914-1.049 1.752-1.049.164 0 .375.012.504.03v1.007c-.082-.023-.445-.058-.644-.058-.961 0-1.659 1.098-1.659 1.535v3.914h-1.007zm-4.27 5.519c-1.195 0-1.869-.867-1.869-2.361 0-1.5.674-2.361 1.869-2.361 1.196 0 1.87.861 1.87 2.361 0 1.494-.674 2.361-1.87 2.361zm0-5.631c-1.798 0-2.912 1.237-2.912 3.27 0 2.027 1.114 3.269 2.912 3.269 1.799 0 2.913-1.242 2.913-3.269 0-2.033-1.114-3.27-2.913-3.27zm-5.478-1.475v1.635h1.407v.843h-1.407v3.575c0 .744.282 1.06.938 1.06.182 0 .281-.006.469-.023v.849c-.199.035-.393.059-.592.059-1.301 0-1.822-.481-1.822-1.688v-3.832h-1.02v-.843h1.02v-1.635zm-8.103 5.694c.129.885.973 1.447 2.174 1.447 1.137 0 1.975-.615 1.975-1.453 0-.72-.527-1.177-1.693-1.47l-1.084-.282c-1.53-.386-2.192-1.078-2.192-2.279 0-1.436 1.201-2.408 2.988-2.408 1.635 0 2.854.972 2.942 2.338h-1.061c-.146-.867-.861-1.383-1.916-1.383-1.125 0-1.869.562-1.869 1.418 0 .662.463 1.043 1.629 1.342l.885.234c1.752.439 2.455 1.119 2.455 2.361 0 1.553-1.225 2.543-3.158 2.543-1.793 0-3.03-.949-3.141-2.408z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="globalnav-link-text">Projects</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="globalnav-item globalnav-item-about globalnav-item-menu">
+                                    <ul role="none" class="globalnav-submenu-trigger-group">
+                                        <li class="globalnav-submenu-trigger-item">
+                                            <a href="projects.html" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-about">
+                                                <span class="globalnav-link-text-container">
+                                                    <span class="globalnav-image-regular globalnav-link-image">
+                                                        <svg height="44" viewBox="0 0 23 44" width="23" xmlns="http://www.w3.org/2000/svg">
+                                                             <path d="m8.1558 25.9987v-6.457h-.0703l-2.666 6.457h-.8907l-2.666-6.457h-.0703v6.457h-.9844v-8.4551h1.2246l2.8945 7.0547h.0938l2.8945-7.0547h1.2246v8.4551zm2.5166-1.7696c0-1.1309.832-1.7812 2.3027-1.8691l1.8223-.1113v-.5742c0-.7793-.4863-1.207-1.4297-1.207-.7559 0-1.2832.2871-1.4238.7852h-1.0195c.1348-1.0137 1.1309-1.6816 2.4785-1.6816 1.541 0 2.4023.791 2.4023 2.1035v4.3242h-.9609v-.9318h-.0938c-.4102.6738-1.1016 1.043-1.9453 1.043-1.2246 0-2.1328-.7266-2.1328-1.8809zm4.125-.5859v-.5801l-1.6992.1113c-.9609.0645-1.3828.3984-1.3828 1.0312 0 .6445.5449 1.0195 1.2773 1.0195 1.0371.0001 1.8047-.6796 1.8047-1.5819zm6.958-2.0273c-.1641-.627-.7207-1.1367-1.6289-1.1367-1.1367 0-1.8516.9082-1.8516 2.3379 0 1.459.7266 2.3848 1.8516 2.3848.8496 0 1.4414-.3926 1.6289-1.1074h1.0195c-.1816 1.1602-1.125 2.0156-2.6426 2.0156-1.7695 0-2.9004-1.2832-2.9004-3.293 0-1.9688 1.125-3.2461 2.8945-3.2461 1.5352 0 2.4727.9199 2.6484 2.0449z"/>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="globalnav-link-text">About</span>
+                                                </span>
+                                             </a>
+                                        </li>
+                                    </ul>
+                                </div>  
+                            </div>
+                        </div>
+                    </li>
                 </ul>
+                <div class="globalnav-menutrigger">
+                    <button id="globalnav-menutrigger-button" aria-controls="globalnav-list" aria-label="Menu" data-topnav-menu-label-open="Menu" data-topnav-menu-label-close="Close" data-topnav-flyout-trigger-compact="menu" class="globalnav-menutrigger-button">
+                        <svg width="18" height="18" viewBox="0 0 18 18">
+                            <polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom">
+                                <animate id="globalnav-anim-menutrigger-bread-bottom-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"></animate>
+                                <animate id="globalnav-anim-menutrigger-bread-bottom-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"></animate>
+                            </polyline>
+                            <polyline id="globalnav-menutrigger-bread-top" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 5, 16 5" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top">
+                                <animate id="globalnav-anim-menutrigger-bread-top-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"></animate>
+                                <animate id="globalnav-anim-menutrigger-bread-top-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"></animate>
+                            </polyline>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </nav>
+        <div id="globalnav-curtain" class="globalnav-curtain"></div>
+        <div id="globalnav-placeholder" class="globalnav-placeholder"></div>
     </div>
+    <script type="text/javascript" src="js\globalheader.js"></script>
 
-    <h1 class="visuallyhidden">Axteria</h1>
 
-    <main class="container">
+    <main class="main">
         <!--
         <section class="announcement">
             The site is under construction. Please check back later.
@@ -61,24 +132,75 @@
     <footer id="gf"> <!-- gf stands for globalfooter -->
         <div class="gf-content">
             <h2 class="gf-label">Axteria Footer</h2>
-            <ul class="gf-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+            <nav class="gf-directory">
+                <div class="gf-d-column">
+                    <div class="gf-d-c-section">
+                        <h3 class="gf-d-c-s-title">
+                            <span class="gf-d-c-s-t-text">Projects</span>
+                            <button class="gf-d-c-s-t-button" disabled>
+                                <span class="gf-d-c-s-t-text">Projects</span>
+                                <span class="gf-d-c-s-t-icon" aria-hidden="true"></span>
+                            </button>
+                        </h3>
+                        <ul class="gf-d-c-s-list" role="list">
+                            <li class="gf-d-c-s-item" role="listitem">
+                                <a class="gf-d-c-s-link" href="html\projects.html">Residential</a>
+                            </li>
+                            <li class="gf-d-c-s-item" role="listitem">
+                                <a class="gf-d-c-s-link" href="html\projects.html">Commercial - Redesign</a>
+                            </li>
+                            <li class="gf-d-c-s-item" role="listitem">
+                                <a class="gf-d-c-s-link" href="html\projects.html">Commercial - Concept Store</a>
+                            </li>
+                            <li class="gf-d-c-s-item" role="listitem">
+                                <a class="gf-d-c-s-link" href="html\projects.html">Graduation Project</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gf-d-column">
+                    <div class="gf-d-c-section">
+                        <h3 class="gf-d-c-s-title">
+                            <span class="gf-d-c-s-t-text">About</span>
+                            <button class="gf-d-c-s-t-button" disabled>
+                                <span class="gf-d-c-s-t-text">About</span>
+                                <span class="gf-d-c-s-t-icon" aria-hidden="true"></span>
+                            </button>
+                        </h3>
+                        <ul class="gf-d-c-s-list" role="list">
+                            <li class="gf-d-c-s-item" role="listitem">
+                                <a class="gf-d-c-s-link" href="html\about.html">Who is this</a>
+                            </li>
+                            <li class="gf-d-c-s-item" role="listitem">                                
+                                <a class="gf-d-c-s-link" href="html\about.html">Education</a>
+                            </li>
+                            <li class="gf-d-c-s-item" role="listitem">
+                                <a class="gf-d-c-s-link" href="html\about.html">Skills</a>
+                            </li>
+                            <li class="gf-d-c-s-item" role="listitem">
+                                <a class="gf-d-c-s-link" href="html\about.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <section class="gf-footer">
+                <div class="gf-footer-info">
+                    For more details, please <a href="mailto:arison.n@axteria.com" title="Send an Email">Send an Email</a>
+                    or <a href="tel:5405-7642" title="">call me</a>.
+                </div>
                 <div class="gf-footer-locale">
-                    <a class="gf-footer-locale-link" href="index.html" title="此網頁提供繁體中文顯示">繁體中文</a>
-                    <a class="gf-footer-locale-link" href="index.html" title="This page is available in English">English</a>
+                    <a class="gf-footer-locale-link gf-footer-locale-lang" href="index.html" title="此網頁提供繁體中文顯示">繁體中文</a>
+                    <a class="gf-footer-locale-link gf-footer-locale-lang" href="index.html" title="This page is available in English">English</a>
                 </div>
                 <div class="gf-footer-legal">
                     <div class="gf-footer-legal-copyright">Copyright &copy; 2025 Axteria. All rights reserved.</div>
                     <ul class="gf-footer-legal-links">
                         <li class="gf-footer-legal-links-item">
-                            <a class="gf-footer-legal-links" href="privacy.html">Privacy Policy</a>
+                            <a class="gf-footer-legal-link" href="privacy.html">Privacy Policy</a>
                         </li>
                         <li class="gf-footer-legal-links-item">
-                            <a class="gf-footer-legal-links" href="terms.html">Terms of Use</a>
+                            <a class="gf-footer-legal-link" href="terms.html">Terms of Use</a>
                         </li>
                     </ul>
                 </div>
@@ -86,8 +208,7 @@
             <script type="text/javascript" src="js\globalfooter.js"></script>
         </div>
     </footer>
-
-    <script src="js\global.js"></script>
+    <script src="js\global.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>
