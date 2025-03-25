@@ -40,7 +40,7 @@
     display: block
 }
 
-#globalheader audio,#globalheader canvas,#globalheader video,#globalheader progress globalnav-name {
+#globalheader audio,#globalheader canvas,#globalheader video,#globalheader progress {
     vertical-align: middle;
 }
 
