@@ -260,3 +260,21 @@ a:link, a:visited{
     color: #fff;
     opacity: var(--sk-link-disabled-opacity)
 }
+
+.unit-image-wrapper {
+    z-index: 1;
+    overflow: visible;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    width: 3008px;
+    height: 1080px;
+    background-size: 3008px 1080px;
+    background-repeat: no-repeat;
+    background-image: url("asset\images\Day_4.png")
+}
