@@ -3,8 +3,9 @@ body{
     line-height: 1.5;
     color: #D9D4CE;
     background-color: #303235;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    top: 0;
 }
 
 
@@ -44,4 +45,38 @@ a:link, a:visited{
     margin: auto;
     padding: 50px;
     z-index: 9999;
+}
+
+.globalnav-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17.5px;
+    font-weight: normal;
+    min-width: 75px;
+    margin: 0;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#globalnav .globalnav-content .globalnav-list{
+    min-height: 50px;
+}
+
+.globalnav-submenu-trigger-group, .globalnav-item-menu, .globalnav-item{
+    margin-left: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 125px;
+}
+
+.globalnav-item .globalnav-link .globalnav-item-axteria{
+    max-width: 125px;
+    min-width: 125px;
+    margin: 0;
 }
