@@ -8,58 +8,6 @@ body{
     padding: 0;
 }
 
-#globalnav{
-    /* Postioning */
-    position: fixed;
-    top:0px;
-
-    /* Styling */
-    left: 0;
-    right: 0;
-    width: 100%;
-    min-width: 320px;
-    height: 50px;
-    max-height: 50px;
-    display: blcok;
-    justify-content: 5%;
-    align-items: left;
-    color: #2F373F;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    margin: 0;
-    font-size: 17.5px;
-}
-
-.globalnav-content{
-    /* Positioning */
-    position: static;
-    flex-direction: row;
-    width: inherit;
-    height: inherit;
-    justify-content: space-between;
-    padding: 0;
-    list-style: none inside none;
-    margin: 0;
-    max-width: 1000px;
-}
-
-.globalnav-list{
-    /* Positioning */
-    position: static;
-    display: flex;
-    flex-direction: row;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 50px;
-    vertical-align: middle;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 25px;
-    list-style: none inside none;
-}
 
 a:link, a:visited{
     color: #2F373F;
