@@ -8,27 +8,31 @@ html, body{
     top: 0;
 }
 
+.main{
+    position: relative;
+    max-width: 2560px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+}
+
 a:link, a:visited{
     color: #2F373F;
     text-decoration: none;
 }
 
-main{
-    position: relative;
-    clear: both;
-}
-
 /* ----- Global Message ----- */
 .globalmessage {
     width: 100%;
-    height: 25px;
-    background: rgb(226, 208, 170);
-    top: 0;
+    height: 75px;
+    color: #D9D4CE;
+    background: rgb(99, 91, 81);
+    box-shadow: rgb(233, 222, 200) 0px 0px 10px;
+    top: 50%;
     padding: 0;
     margin: 0;
     box-sizing: content-box;
     position: absolute;
-    z-index: 200;
+    z-index: 1000;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -45,10 +49,6 @@ main{
 }
 
 .globalmessage-list{
-    font-family: "Lexend","Noto Sans HK","Arial",sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    color: #303235;
     box-sizing: content-box;
     width: inherit;
     height: inherit;
@@ -82,7 +82,6 @@ main{
     animation: marquee 50s linear infinite;
     /* manipulate the speed of the marquee by changing "40s" line above*/
 }
-  
 
 @keyframes marquee {
     from { transform: translateX(0); }
@@ -95,7 +94,18 @@ main{
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    color: #303235;
     font-family: "Lexend","Noto Sans HK","Arial",sans-serif;
     font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* ----- Main Content ----- */
+section{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: normal;
+
 }
