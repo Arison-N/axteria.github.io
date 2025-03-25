@@ -24,8 +24,8 @@ a:link, a:visited{
 .globalmessage {
     width: 100%;
     height: 75px;
-    color: #D9D4CE;
-    background: rgb(99, 91, 81);
+    color: rgb(99, 91, 81);
+    background: rgb(233, 222, 200);
     box-shadow: rgb(233, 222, 200) 0px 0px 10px;
     top: 50%;
     padding: 0;
@@ -101,11 +101,8 @@ a:link, a:visited{
 }
 
 /* ----- Main Content ----- */
-section{
+.showcase-module{
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 25px;
-    display: normal;
-
+    display: -ms-grid;
+    display: grid;
 }
