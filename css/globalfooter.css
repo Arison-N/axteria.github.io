@@ -766,12 +766,12 @@ gf-dark #gf {
 
 #gf .gf-content {
     margin: 0 auto;
-    max-width: 980px;
-    padding: 0 22px
+    max-width: 1000px;
+    padding: 0 25px
 }
 
 #gf:not([dir=rtl]) .gf-content {
-    padding-inline-start:max(22px, env(safe-area-inset-left));padding-inline-end:max(22px, env(safe-area-inset-right))}
+    padding-inline-start:max(25px, env(safe-area-inset-left));padding-inline-end:max(22px, env(safe-area-inset-right))}
 
 @media only screen and (max-width: 833px) {
     #gf:not([dir=rtl]) .gf-content {

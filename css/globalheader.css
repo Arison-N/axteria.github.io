@@ -1,0 +1,23 @@
+#globalheader{
+    width: 100%;
+    height: 50px;
+    background: #2F373F;
+    top: 0;
+}
+
+#globalnav .globalnav-content{
+    box-sizing: content-box;
+    width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 25px;
+    height: 50px;
+}
+
+#globalnav-list .globalnav-item {
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    height: inherit;
+}

@@ -17,7 +17,6 @@ a:link, a:visited{
 .container{
     /* Positioning */
     position: static;
-    top: 50px;
 
     /* Styling */
     height: inherit;
@@ -45,38 +44,4 @@ a:link, a:visited{
     margin: auto;
     padding: 50px;
     z-index: 9999;
-}
-
-.globalnav-name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17.5px;
-    font-weight: normal;
-    min-width: 75px;
-    margin: 0;
-}
-
-.svg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#globalnav .globalnav-content .globalnav-list{
-    min-height: 50px;
-}
-
-.globalnav-submenu-trigger-group, .globalnav-item-menu, .globalnav-item{
-    margin-left: 25px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    max-width: 125px;
-}
-
-.globalnav-item .globalnav-link .globalnav-item-axteria{
-    max-width: 125px;
-    min-width: 125px;
-    margin: 0;
 }
