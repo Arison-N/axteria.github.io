@@ -91,7 +91,7 @@ html,body {
     --r-globalnav-color-secondary: #333336;
     --r-globalnav-color-hover: #000000;
     --r-globalnav-font-size: 17px;
-    --globalnav-background: none;
+    --globalnav-background: rgb(245, 245, 247);
     --globalnav-backdrop-filter: none;
     position: absolute;
     top: 0;

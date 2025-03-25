@@ -112,7 +112,7 @@
         <div id="globalnav-curtain" class="globalnav-curtain"></div>
         <div id="globalnav-placeholder" class="globalnav-placeholder"></div>
     </div>
-    <script type="text/javascript" src="..\js\globalheader.js"></script>
+    <script type="text/json" src="..\js\globalheader.js"></script>
 
 
     <main class="main">
@@ -210,10 +210,10 @@
                     </ul>
                 </div>
             </section>
-            <script type="text/javascript" src="js\globalfooter.js"></script>
+            <script type="text/json" src="js\globalfooter.js"></script>
         </div>
     </footer>
-    <script src="..\js\global.js" type="text/javascript" charset="utf-8"></script>
+    <script src="..\js\global.js" type="text/json" charset="utf-8"></script>
 </body>
 
 </html>
