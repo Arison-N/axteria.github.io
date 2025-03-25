@@ -278,3 +278,18 @@ a:link, a:visited{
     background-repeat: no-repeat;
     background-image: url("asset\images\Day_4.png")
 }
+
+.unit-image {
+    z-index: 1;
+    position: absolute;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+    max-height: 750px;
+}
