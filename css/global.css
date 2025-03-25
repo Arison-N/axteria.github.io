@@ -25,23 +25,3 @@ a:link, a:visited{
     align-items: center;
     width: 100%;
 }
-
-.announcement{
-    /* Positioning */
-    position: absolute;
-    top: 25%;
-
-    /* Styling */
-    width: 75%;
-    height: 50%;
-    min-height: 500px;
-    background: rgb(245, 245, 247);
-    color: rgba(0, 0, 0, 0.88);
-    text-align: center;
-    vertical-align: middle;
-    line-height: 1.5;
-    font-size: 25px;
-    margin: auto;
-    padding: 50px;
-    z-index: 9999;
-}
