@@ -19,56 +19,85 @@
 </head>
 
 <body>
-
+    
     <div id="globalheader">
         <nav id="globalnav">
             <div class="globalnav-content">
-                <ul id="globalnav-list" class="globalnav-list">
-                    <li class="globalnav-item globalnav-item-axteria">
-                        <a href="index.html" class="globalnav-link globalnav-item-axteria">
-                            <span class="globalnav-image-regular">
-                                <svg width="35" height="35" xmlns="http://www.w3.org/2000/svg" class="globalnav-link-image">
-                                    <path d="M17 5C19.5 5 19 9 21 12S29 14 29 17 23 19 21 22C19 25 19.5 29 17 29S15 25 13 22 5 20 5 17 11 15 13 12 14.5 5 17 5" />
-                                </svg>
-                                <h1 class="globalnav-name">Axteria</h1>   
-                            </span>
-                            <span class="globalnav-link-text">
+                <ul class="globalnav-list">
+
+                    <!-- Logo -->
+                    <li class="globalnav-logo">
+                        <a href="index.html" class="globalnav-link">
+                            <span class="globalnav-logo-text">
                                 <svg width="35" height="35" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M17 5C19.5 5 19 9 21 12S29 14 29 17 23 19 21 22C19 25 19.5 29 17 29S15 25 13 22 5 20 5 17 11 15 13 12 14.5 5 17 5" />
                                 </svg>
-                                Axteria
+                                <h1>Axteria</h1>   
                             </span>
                         </a>
                     </li>
-                    <li class="globalnav-item globalnav-menu">
-                        <div class="globalnav-flyout">
-                            <div class="globalnav-menu-list">
-                                <div class="globalnav-item globalnav-item-projects globalnav-item-menu">
-                                    <ul class="globalnav-submenu-trigger-group">
-                                        <li class="globalnav-submenu-trigger-item">
-                                            <a href="projects.html" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-projects">
-                                                <span class="globalnav-link-text-container">
-                                                    <span class="globalnav-link-text">Projects</span>
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
 
-                                <div class="globalnav-item globalnav-item-about globalnav-item-menu">
-                                    <ul role="none" class="globalnav-submenu-trigger-group">
-                                        <li class="globalnav-submenu-trigger-item">
-                                            <a href="projects.html" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-about">
-                                                <span class="globalnav-link-text-container">
-                                                    <span class="globalnav-link-text">About</span>
-                                                </span>
-                                             </a>
-                                        </li>
-                                    </ul>
-                                </div>  
+                    <!-- Projects -->
+                    <li class="globalnav-item">
+                        <a href="projects.html" class="globalnav-link">
+                            <span>Projects</span>
+                        </a>
+
+                        <!-- Flyout Submenu -->
+                        <div class="globalnav-flyout">
+                            <div class="globalnav-flyout-container">
+                                <div class="globalnav-flyout-content">
+                                    <div class="globalnav-submenu-group">
+                                        <h2>Interior Design</h2>
+                                        <ul>
+                                            <li><a href="#">Explore All Interior Design Projects</a></li>
+                                            <li><a href="#">Residential</a></li>
+                                            <li><a href="#">Commercial</a></li>
+                                            <li><a href="#">Hospitality</a></li>
+                                        </ul>
+                                    </div>
+        
+                                    <div class="globalnav-submenu-group">
+                                        <h2>Computing</h2>
+                                        <ul>
+                                            <li><a href="#">Front-end Development</a></li>
+                                            <li><a href="#">Computer Assembly</a></li>
+                                        </ul>
+                                    </div>
+        
+                                    <div class="globalnav-submenu-group">
+                                        <h2>Civil Engineering</h2>
+                                        <ul>
+                                            <li><a href="#">Continue...</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                                              
                     </li>
+
+                    <!-- About -->
+                    <li class="globalnav-item">
+                        <a href="projects.html" class="globalnav-link">
+                            <span>About</span>
+                        </a>
+                        
+                        <!-- Flyout Submenu -->
+                        <div class="globalnav-flyout">
+                            <div class="globalnav-submenu-group">
+                                <h2>Arison</h2>
+                                <ul>
+                                    <li><a href="#">Explore All About Arison</a></li>
+                                    <li><a href="#">Academic Background</a></li>
+                                    <li><a href="#">Skills</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </li>
+
                 </ul>
             </div>
         </nav>
